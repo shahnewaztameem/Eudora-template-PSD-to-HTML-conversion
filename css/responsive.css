@@ -1,0 +1,237 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+    .heading-text h1 {
+        font-size: 41px;
+    }
+    .heading-text p{
+        font-size: 17px;
+    }
+    button.btn {
+        padding: 5px 25px;
+    }
+    .bgcolor h1 {
+        padding: 2%;
+        font-size: 63px;
+    }
+
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    .navbar-nav>li>a {
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+    .heading-text h1 {
+        font-size: 31px;
+    }
+    button.btn {
+        padding: 5px 25px;
+    }
+    .heading-text p {
+        font-size: 13px;
+        line-height: 30px;
+        padding-bottom: 16px;
+    }
+    .category-text h1 {
+        font-size: 55px;
+    }
+    .category-text p {
+        font-size: 18px;
+    }
+    .bgcolor {
+        height: 87px;
+        text-align: center;
+    }
+    .bgcolor h1 {
+        padding: 0;
+    }
+    .copyright-contents ul li a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    p.copy {
+        font-size: 16px;
+    }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .navbar-brand>img {
+        height: 30px;
+    }
+    .heading-text h1 {
+        font-size: 31px;
+    }
+    .heading-text p {
+        font-size: 13px;
+        line-height: 25px;
+    }
+    .category-text h1 {
+        font-size: 51px;
+    }
+    .category-text p {
+        font-size: 17px;
+    }
+    .bgcolor{
+        height: 60px;
+        text-align: center;
+    }
+    .bgcolor h1 {
+        font-size: 50px;
+        padding: 0;
+    }
+    .footer-contents h1{
+        font-size: 50px;
+    }
+    .footer-contents input[type="email"]{
+        margin-bottom: 35px;
+    }
+    p.copy {
+        text-align: center;
+    }
+    .copyright-contents ul {
+        text-align: center;
+        float:none !Important;
+    }
+    .navbar-nav>li>a {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background: #000;
+    }
+
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    .heading-text h1 {
+        font-size: 26px;
+    }
+    .heading-text p {
+        font-size: 12px;
+    }
+    .navbar-brand>img {
+        height: 30px;
+    }
+    .navbar-nav>li>a {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    .navbar-default .navbar-collapse, .navbar-default .navbar-form {
+        background: #000;
+    }
+    .heading-text p {
+        font-size: 12px;
+        line-height: 29px;
+    }
+    button.btn {
+        padding: 5px 20px;
+    }
+    .category-text h1 {
+        font-size: 24px;
+        padding-bottom: 25px;
+    }
+    .category-text p {
+        font-size: 15px;
+    }
+    .category-text {
+        padding-bottom: 15px;
+    }
+    #learn-more .category-text {
+        padding-bottom: 60px;
+    }
+    .buttons a.desserts, .buttons a.meats, .buttons a.salads {
+        font-size: 21px;
+        line-height: 31px;
+        padding: 0px 16px;
+        margin: 5px 4px;
+    }
+    .bgcolor h1 {
+        font-size: 23px;
+        padding: 0;
+        padding-top: 15px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .bgcolor{
+        height: 60px;
+    }
+    .information-text h1 {
+        font-size: 20px;
+        line-height: 45px;
+    }
+    .information-text p {
+        font-size: 14px;
+        padding-bottom: 15px;
+    }
+    .information-text a.btn {
+        padding: 7px 15px;
+    }
+    .footer-contents h1 {
+        font-size: 26px;
+        padding-bottom: 25px; 
+    }
+    .footer-contents input[type="email"] {
+        width: 88%;
+        font-size: 17px;  
+    }
+    input::-webkit-input-placeholder {
+        font-size: 17px
+    }
+    p.copy {
+        font-size: 14px;
+    }
+    .copyright-contents ul li a {
+        font-size: 15px;
+        padding-right: 9px;
+        padding-left: 15px;
+    }
+    .copyright-contents ul {
+        float: none;
+        text-align: center;
+    }
+  
+}
